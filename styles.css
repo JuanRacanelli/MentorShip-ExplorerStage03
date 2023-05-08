@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #BFD7E4;
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background: #293241;
+
+  width: 100%;
+  height: 468px;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.contentHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentHeader h1 {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+
+  margin-top: 100px;
+  margin-bottom: 10px;
+
+  color: #FFFFFF;
+}
+
+.contentHeader p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-bottom: 30px;
+
+  color: #FFFFFF;
+}
+
+.formHeader {
+  background: #F67669;
+
+  position: absolute;
+  z-index: 2;
+
+  width: 750px;
+  height: 133px;
+
+  margin-top: 335px;
+
+  border-radius: 20px 20px 0px 0px;
+}
+
+.contentHeader fieldset {
+  border: none;
+
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #FFFFFF;
+
+  padding: 82px 275px 82px 275px;
+
+  z-index: 3;
+}
+
+section{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form {
+  background-color: #FFFFFF;
+
+  width: 750px;
+  height: 1075px;
+
+  margin-top: 468px;
+
+  padding: 32px 64px 32px 64px;
+  border-radius: 0px 0px 8px 8px;
+
+  position: absolute;
+  z-index: 2;
+}
+
+.infoP1{
+  width: 622px;
+
+  display: flex;
+  justify-content: space-between;
+
+  gap: 22px;
+}
+
+.input-Name,
+.input-Surname,
+.input-Email label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+
+  color: #4E4958;
+}
+
+.input-Name input {
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 300px;
+  height: 55px;
+
+  margin-bottom: 18px;
+  padding: 8px;
+}
+
+.input-Surname input {
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 300px;
+  height: 55px;
+
+  margin-bottom: 18px;
+  padding: 8px;
+}
+
+.infoP2{
+  width: 622px;
+
+  display: flex;
+}
+
+.input-Email span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #C1BCCC;
+
+  margin-left: 9px;
+}
+
+.input-Email input {
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 622px;
+  height: 55px;
+
+  padding: 8px;
+}
+
+.infoM1 {
+  width: 622px;
+  height: 446px;
+}
+
+.infoM1 fieldset {
+  border: none;
+
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  
+  color: #253B51;
+
+  border-bottom: 1px solid #E6E6F0;
+  
+  padding: 32px 200px 8px 200px;
+}
+
+.input-who,
+.input-feedback {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-who,
+.input-feedback label {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4E4958;
+
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+
+.input-who select {
+  appearance: none;
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 300px;
+  height: 55px;
+
+  margin-top: 8px;
+  padding: 8px;
+}
+
+.input-feedback textarea {
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  width: 608px;
+  height: 166px;
+
+  margin-bottom: 30px;
+  padding: 8px;
+}
+
+.input-checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.input-checkbox input {
+  appearance: none;
+
+  width: 24px;
+  height: 24px;
+
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+}
+
+.input-checkbox input:checked{
+  background: #fd8678;
+}
+
+.input-checkbox label {
+  font-family: 'Poppins';
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+}
+
+.dateM1 {
+  width: 622px;
+  height: 162px;
+  margin-top: 36px;
+}
+
+.dateM2 {
+  margin-top: 32px;
+
+  display: flex;
+  flex-direction: row;
+
+  gap: 10px;
+}
+
+.dateM1 fieldset {
+  border: none;
+
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  
+  color: #253B51;
+
+  border-bottom: 1px solid #E6E6F0;
+  
+  padding: 32px 184px 8px;
+}
+
+.input-date, 
+.input-begin,
+.input-end label {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #4E4958;
+}
+
+.input-date span {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #C1BCCC;
+}
+
+.input-date input {
+  appearance: none;
+
+  width: 300px;
+  height: 55px;
+
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  padding: 8px;
+}
+
+.input-begin input {
+  appearance: none;
+
+  width: 140px;
+  height: 55px;
+
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  padding: 8px;
+}
+
+.input-end input {
+  appearance: none;
+
+  width: 140px;
+  height: 55px;
+
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  padding: 8px;
+}
+
+.sendButton {
+  margin-top: 84px;
+
+  position: absolute;
+  width: 622px;
+  height: 51px;
+
+  background: #F67669;
+  color: #FFFFFF;
+
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  border-radius: 8px;
+  border: none;
+}
+
+.sendButton:hover {
+  background: #893f37;
+}
+
+
+
+
+
+
+
